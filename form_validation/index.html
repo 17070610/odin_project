@@ -8,48 +8,58 @@
         <link rel="stylesheet" href="./styles.css">
     </head>
     <body>
-        <description>
-            <p>
-                This is not a real online service! You know you need something
-                like this in your real life to help you realize your deepest dreams.
-                <br>
-                Sign up <i>now</i> to get started.
-            </p>
-            <p>
-                You know you want to.
-            </p>
-        </description>
-        <form>
-            <h2>Let's do this!</h2>
-            <ul>
-                <li>
-                    <label for="first_name">FIRST NAME</label>
-                    <input type="text" name="first_name" id="first_name" required>
-                </li>
-                <li>
-                    <label for="last_name">LAST NAME</label>
-                    <input type="text" name="last_name" id="last_name" required>
-                </li>
-                <li>
-                    <label for="email">EMAIL</label>
-                    <input type="email" name="email" id="email" required>
-                </li>
-                <li>
-                    <label for="phone_number">PHONE NUMBER</label>
-                    <input type="text" name="phone_number" id="phone_number" required>
-                </li>
-                <li>
-                    <label for="password">PASSWORD</label>
-                    <input type="password" name="password" id="password" required>
-                </li>
-                <li>
-                    <label for="confirm_password">CONFIRM PASSWORD</label>
-                    <input type="password" name="confirm_password" id="confirm_password" required>
-                </li>
-            </ul>
-            <button type="submit">Create Account</button>
-        </form>
-        <p class="log_in">Already have an account?<!--suppress HtmlUnknownTarget -->
-            <a href="logIn">Log in</a></p>
+    <div class="content">
+        <div class="logo_container">
+            <logo>
+                <img src="./assets/odin-lined.png" alt="Odin Logo">
+                <p>ODIN</p>
+            </logo>
+        </div>
+        <div class="section">
+            <description>
+                <p>
+                    This is not a real online service! You know you need something
+                    like this in your real life to help you realize your deepest dreams.
+                    <br>
+                    Sign up <i>now</i> to get started.
+                </p>
+                <p>
+                    You know you want to.
+                </p>
+            </description>
+            <form>
+                <h2>Let's do this!</h2>
+                <ul>
+                    <li>
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" name="first_name" id="first_name" required>
+                    </li>
+                    <li>
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" name="last_name" id="last_name" required>
+                    </li>
+                    <li>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" required>
+                    </li>
+                    <li>
+                        <label for="phone_number">PHONE NUMBER</label>
+                        <input type="text" name="phone_number" id="phone_number" required>
+                    </li>
+                    <li>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" required>
+                    </li>
+                    <li>
+                        <label for="confirm_password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm_password" id="confirm_password" required>
+                    </li>
+                </ul>
+                <button type="submit">Create Account</button>
+            </form>
+            <p class="log_in">Already have an account?<!--suppress HtmlUnknownTarget -->
+                <a href="logIn">Log in</a></p>
+        </div>
+    </div>
     </body>
 </html>
