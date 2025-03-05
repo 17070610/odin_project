@@ -57,6 +57,22 @@ logo p {
     display: inline;
 }
 
+.credits {
+    Position: absolute;
+    bottom: 0;
+    color: #ffffff;
+}
+
+.credits a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.credits a:hover {
+    text-decoration: none;
+    font-size: 1.05em;
+}
+
 .section {
     flex: 5;
 }
