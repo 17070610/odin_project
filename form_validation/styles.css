@@ -92,7 +92,7 @@ logo p {
  }
 
 form {
-padding: 2em;
+    padding: 2em 2em 1em;
 }
 
 ul {
@@ -137,13 +137,13 @@ input {
 }
 
 input:focus {
-    box-shadow: 0 0 5px 2px rgba(0, 0, 255, 0.5);
-    border-color: blue;
-}
-
-#confirm_password:focus, #password:focus {
     box-shadow: 0 0 5px 2px rgba(255, 0, 0, 0.5);
     border-color: #ff0000;
+}
+
+input:valid {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 255, 0.5);
+    border-color: blue;
 }
 
 #submit {
@@ -163,4 +163,18 @@ input:focus {
 
 #submit:active {
     transform: scale(0.95);
+}
+
+.log_in {
+    margin-left: 3em;
+    font-size: 0.9em;
+}
+
+.log_in a {
+    color: #447a44;
+}
+
+.log_in a:hover {
+    font-weight: bold;
+    text-decoration: none;
 }
